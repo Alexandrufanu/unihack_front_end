@@ -113,8 +113,9 @@ li a:hover {
   background-color: #fff;
   opacity: 0.6;
   border-radius:25px ; */
-
  }
+
+ 
 
 
  h1{
@@ -153,12 +154,15 @@ h1 {
 
 
 
-
+.middle1{
+  margin: auto;
+  padding: 1.1%;
+}
 
 #navlist {
-  background-color: white;
-  position: absolute;
-  width: 100%;
+  background-color: #eeeeee;
+  position: fixed;
+  width: 95%;
 }
 
 /* styling navlist anchor element */
@@ -311,6 +315,21 @@ button{
   text-decoration: none;
   cursor: pointer;
 }
+.header {
+  float: left;
+  padding: 14px 16px;
+  font-size: 15px;
+  background: #fab301;
+  color: #fab301;
+  width: 80%;
+  height: 50px;
+  overflow: hidden;
+  position:fixed;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 25px;
+}
 
 .new{
   width: 50%;
@@ -332,3 +351,108 @@ button{
 }
 
 
+.box1{
+  background-color: #ff9f1aaa;
+  border-radius: 25px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/**/
+
+.box0{
+  display: block;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  border-radius: 25px;
+  margin-left: 4%;
+}
+
+.box0 span{
+  position: relative;
+  z-index: 2;
+}
+
+.box0:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fab301;
+  transition: all .35s;
+  opacity: 50%;
+  border-radius: 25px;
+}
+
+.box0:hover{
+  color: #fff;
+}
+
+.box0:hover:after{
+  width: 100%;
+}
+
+/*-----------------------------*/
+
+.box00{
+  display: block;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  border-radius: 25px;
+  margin-left: 4%;
+}
+
+.box00 span{
+  position: relative;
+  z-index: 2;
+}
+
+.box00:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fa3b01;
+  transition: all .35s;
+  opacity: 50%;
+  border-radius: 25px;
+}
+
+.box00:hover{
+  color: #fff;
+}
+
+.box00:hover:after{
+  width: 100%;
+}
+
+.m {
+  margin-top: 1%;
+}
