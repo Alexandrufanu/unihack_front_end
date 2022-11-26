@@ -31,17 +31,29 @@ import ImageUploader from './ImageUploader';
 // }
   function App() {
     return ( 
-    <>  
-      <div id="navlist">
-        <a href="#">Home</a>
-        <a href="#">Class: X</a>
-        <a href="#">Class: XI</a>
-        <a href="#">Class: XII</a>
+    <> 
+    <div class = "middle1"> 
+      <div class = "header" id="navlist">
+        <a class = "box00" href="#">Home</a>
+        <a class = "box0" href="#">Class: IX</a>
+        <a class = "box0" href="#">Class: X</a>
+        <a class = "box0" href="#">Class: XI</a>
+        <a class = "box0" href="#">Class: XII</a>
         
-        <div class="search-box">
-          <button class="btn-search"><i class="fas fa-search"></i></button>
-          {/* <input type="text" class="input-search" placeholder="Type to Search..."> */}
-        </div>
+    <form class = "m" action="/" method="get">
+        <label htmlFor="header-search">
+            <span className="visually-hidden"></span>
+        </label>
+        <input
+            type="text"
+            id="header-search"
+            placeholder="Search..."
+            name="s"
+        />
+        <button type="submit">Search</button>
+    </form>
+
+      </div>
       </div>
      
      <br/>
