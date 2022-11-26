@@ -31,6 +31,7 @@ import ImageUploader from './ImageUploader';
 // }
   function App() {
     return ( 
+    <>  
       <div id="navlist">
         <a href="#">Home</a>
         <a href="#">Class: X</a>
@@ -42,6 +43,98 @@ import ImageUploader from './ImageUploader';
           {/* <input type="text" class="input-search" placeholder="Type to Search..."> */}
         </div>
       </div>
+     
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+
+
+    <div class="subject">
+    <div class="container">
+
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>MATH</h1>
+        </div>
+      </div> 
+      
+      <div class="container">
+
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          
+          <h1>ENGLISH</h1>
+        </div>
+      </div>
+
+      <div class="container">
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>BIOLOGY</h1>
+        </div>
+      </div>
+
+
+      <div class="container">
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>GEOGRAPHY</h1>
+        </div>
+      </div>
+
+      <div class="container">
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>COMPUTER SCIENCE</h1>
+        </div>
+      </div>
+
+      <div class="container">
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>PHILOLOGY</h1>
+        </div>
+      </div>
+
+
+      <div class="container">
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>PHYSICS</h1>
+        </div>
+      </div>
+
+
+      <div class="container">
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>  PHYSICAL EDUCATION</h1>
+        </div>
+      </div>
+
+      
+      <div class="container">
+      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+        <div class="content">
+          <h1>CHEMISTRY</h1>
+        </div>
+      </div>
+
+   {/* <div class="container">
+    <button class="new" id="myBtn"><img src={require('./img/calculator.png')} alt="calu" class="picture"/></button>
+    <div class="content">
+      <h1 style="margin-top: 12%;">NEW</h1>
+    </div>
+    </div> */}
+</div>
+
+    
+    
+    </>  
+      
     );
 
    } 
