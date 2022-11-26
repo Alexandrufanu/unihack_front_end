@@ -124,17 +124,29 @@ import ImageUploader from './ImageUploader';
         </div>
       </div>
 
-      </div>
+    
       
 
-   {/* <div class="container">
-    <button class="new" id="myBtn"><img src={require('./img/calculator.png')} alt="calu" class="picture"/></button>
-    <div class="content">
-      <h1 style="margin-top: 12%;">NEW</h1>
+   <div class="container">
+      <button><img src={require('./img/plus.png')} alt="calu" class="picture"/></button>
+        <div class="content">
+          <h1 class="new">NEW</h1>
+        </div>
+      </div>
+
+
     </div>
-    </div> */}
 
+      {/* <<div class="container">
 
+      <div class="content">
+        <h1 style="margin-top: 12%;">NEW</h1>
+      </div>
+      </div> */}
+
+     
+
+      
     
     
     </>  

@@ -291,6 +291,13 @@ header input{
 }
 
 /* The Close Button */
+
+button{
+  background-color: transparent;
+  border: none;
+
+}
+
 .close {
   color: #aaaaaa;
   float: right;
@@ -303,6 +310,25 @@ header input{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.new{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px;
+  /* background-image: url(GENETICA1.jpg); */
+  background-size: auto 70%;
+  background-color: #fff;
+  opacity: 0.6;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  /* -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.21); */
+  border-radius:25px ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10%;
 }
 
 
