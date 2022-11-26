@@ -71,16 +71,16 @@ section .img2{
 .text1{
   background-color: #ff9f1aaa;
   border-radius: 25px;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
   color: white;
   padding: 20px 50px;
   text-align: center;
   text-decoration: none;
 }
 .text2{
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -89,14 +89,33 @@ section .img2{
 }
 
 .text3{
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
   color: white;
   padding: 20px 50px;
   text-align: center;
   text-decoration: none;
   font-family:'Courier New', Courier, monospace, cursive;
   font-size: 25px;
+}
+.Sign_In{
+  background-color: #57004d;
+  border-radius: 25px;
+  margin-left: 8%;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.Sign_Up{
+  background-color: #ff1a1a;
+  border-radius: 25px;
+  margin-left: 2%;
+  margin-right: 3%;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .top-container {
