@@ -53,6 +53,7 @@ import ImageUploader from './ImageUploader';
 
 
     <div class="subject">
+    
     <div class="container">
 
       <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
@@ -63,7 +64,7 @@ import ImageUploader from './ImageUploader';
       
       <div class="container">
 
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/eng2.png')} alt="calu" class="picture"/>
         <div class="content">
           
           <h1>ENGLISH</h1>
@@ -71,7 +72,7 @@ import ImageUploader from './ImageUploader';
       </div>
 
       <div class="container">
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/biology2.png')} alt="calu" class="picture"/>
         <div class="content">
           <h1>BIOLOGY</h1>
         </div>
@@ -79,21 +80,21 @@ import ImageUploader from './ImageUploader';
 
 
       <div class="container">
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/planet-earth.png')} alt="calu" class="picture"/>
         <div class="content">
           <h1>GEOGRAPHY</h1>
         </div>
       </div>
 
       <div class="container">
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/data-science.png')} alt="calu" class="picture"/>
         <div class="content">
           <h1>COMPUTER SCIENCE</h1>
         </div>
       </div>
 
       <div class="container">
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/filo.png')} alt="calu" class="picture"/>
         <div class="content">
           <h1>PHILOLOGY</h1>
         </div>
@@ -101,7 +102,7 @@ import ImageUploader from './ImageUploader';
 
 
       <div class="container">
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/fizicaaa.png')} alt="calu" class="picture"/>
         <div class="content">
           <h1>PHYSICS</h1>
         </div>
@@ -109,7 +110,7 @@ import ImageUploader from './ImageUploader';
 
 
       <div class="container">
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/sports.png')} alt="calu" class="picture"/>
         <div class="content">
           <h1>  PHYSICAL EDUCATION</h1>
         </div>
@@ -117,11 +118,14 @@ import ImageUploader from './ImageUploader';
 
       
       <div class="container">
-      <img src={require('./img/calculator.png')} alt="calu" class="picture"/>
+      <img src={require('./img/chemistry.png')} alt="calu" class="picture"/>
         <div class="content">
           <h1>CHEMISTRY</h1>
         </div>
       </div>
+
+      </div>
+      
 
    {/* <div class="container">
     <button class="new" id="myBtn"><img src={require('./img/calculator.png')} alt="calu" class="picture"/></button>
@@ -129,7 +133,7 @@ import ImageUploader from './ImageUploader';
       <h1 style="margin-top: 12%;">NEW</h1>
     </div>
     </div> */}
-</div>
+
 
     
     
