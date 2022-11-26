@@ -1,0 +1,19 @@
+:root{
+    --var-color-one: #f5efe1;
+    --var-color-two: #161616;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--var-color-two);
+
+}
+
+html, body{
+    background-color: var(--var-color-one);
+    height: 2000px;
+}
