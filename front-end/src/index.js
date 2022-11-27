@@ -3,14 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+ 
+import LogInModal from "./components/modal"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+
+    <LogInModal />
+
+
   </React.StrictMode>
 );
 
+
+// const sign_in = ReactDOM.createRoot(document.getElementById('sign_in'));
+// sign_in.render(
+//   <React.StrictMode>
+
+//     <LogInModal />
+
+
+//   </React.StrictMode>
+// );
 
 let header = document.getElementById('header');
 
