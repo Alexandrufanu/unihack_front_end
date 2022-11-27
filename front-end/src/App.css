@@ -313,14 +313,12 @@ header input{
 .header {
   float: left;
   padding: 14px 16px;
-  font-size: 15px;
-  background: #fab301;
-  color: #fab301;
+  font-size: 15px;  
   width: 80%;
   height: 50px;
   overflow: hidden;
   position:fixed;
-  text-align: center;
+ 
   text-decoration: none;
   
   border-radius: 25px;
@@ -359,9 +357,9 @@ header input{
 /**/
 
 .box0{
-  display: block;
-  width: 100px;
-  height: 20px;
+  padding: 15px;
+  width: 150px;
+  height: 50px;
   line-height: 20px;
   font-size: 18px;
   font-family: sans-serif;
@@ -433,9 +431,9 @@ header input{
 /*-----------------------------*/
 
 .box00{
-  display: block;
-  width: 100px;
-  height: 20px;
+  padding: 15px;
+  width: 150px;
+  height: 50px;
   line-height: 20px;
   font-size: 18px;
   font-family: sans-serif;
@@ -478,4 +476,24 @@ header input{
 
 .m {
   margin-top: 1%;
+  float: right;
+  margin-right: 3%;
+}
+
+.box01{
+  display: block;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  border-radius: 25px;
+  margin-left: 4%;
 }
