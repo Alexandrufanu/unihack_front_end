@@ -174,8 +174,7 @@ section .img2{
 
 /* Modal Content */
 .modal-content {
-<<<<<<< HEAD
-  background-color: #ff1a1a;
+  background-color: #57004d;
   margin: auto;
   padding: 20px;
   border: 10px solid rgb(255, 255, 255);
@@ -183,13 +182,6 @@ section .img2{
   width: 20%;
   height: 60%;
   border-radius: 25px;
-=======
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
->>>>>>> 2622e28b8e335d74d2c4b70591c6ad35377b687a
 }
 
 /* The Close Button */
@@ -207,7 +199,7 @@ section .img2{
   cursor: pointer;
 }
 
-
+.button4 {border-radius: 5px;}
 
 /**/
 
