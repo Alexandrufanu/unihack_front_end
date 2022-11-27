@@ -120,10 +120,77 @@ body {
          <a class = "text1" style="text-decoration: none" href="#contact">X</a>
          <a class = "text1" style="text-decoration: none" href="#contact">XI</a>
          <a class = "text1" style="text-decoration: none" href="#contact">XII</a>
-         <a class = "Sign_In" style="text-decoration: none" href="#contact">Sign In</a>
-         <a class = "Sign_Up" style="text-decoration: none" href="#contact">Sign Up</a>
+        
+         
+          <a class="Sign_In" style="text-decoration: none" id="myBtn">Sign In</a>
+          <a class="Sign_Up" style="text-decoration: none" id="myBtnUP">Sign Up</a>
+
+
+         <div id="myModal" class="modal">
+          <div class="modal-content" >
+            <h1>Sing In</h1>
+            <input type="text" id="header-search" placeholder="Numele"/><br>
+            <input type = "password" id="header-search" placeholder="Parola"/><br><br>
+            <!--<span class="close">&times;</span>
+            <textarea rows="12" cols="50"></textarea><br>-->
+            
+            <a href="#"><button border-radius: 12px type="module" id="myBtn">Sign In</button></a> <br>
+          </div>
+        </div>
+
+        <div id="myModall" class="modal">
+          <div class="modal-content" >
+            <h1>Sing Up</h1>
+            <input type="text" id="header-search" placeholder="Numele"/><br>
+            <input type = "password" id="header-search" placeholder="Parola"/><br><br>
+            <!--<span class="close">&times;</span>
+            <textarea rows="12" cols="50"></textarea><br>-->
+            
+            <a href="#"><button type="module" id="myBtnUP">Sign Up</button></a> <br>
+          </div>
+        </div>
+
         </h2>
       </div> 
+      <!--
+        <label htmlFor="header-search">
+            <span className="visually-hidden"></span>
+        </label>
+        <input
+            type="text"
+            id="header-search"
+            placeholder="Search..."
+            name="s"
+        />
+        <button>Search</button>-->
+      
+      <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
     
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
