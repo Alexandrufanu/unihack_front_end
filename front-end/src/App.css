@@ -296,11 +296,6 @@ header input{
 
 /* The Close Button */
 
-button{
-  background-color: transparent;
-  border: none;
-
-}
 
 .close {
   color: #aaaaaa;

@@ -50,7 +50,7 @@ import ImageUploader from './ImageUploader';
             placeholder="Search..."
             name="s"
         />
-        <button type="submit">Search</button>
+        <button>Search</button>
     </form>
 
       </div>
