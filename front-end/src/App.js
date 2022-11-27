@@ -34,11 +34,11 @@ import ImageUploader from './ImageUploader';
     <> 
     <div class = "middle1"> 
       <div class = "header" id="navlist">
-        <a class = "box00" href="#">Home</a>
-        <a class = "box0" href="#">Class: IX</a>
-        <a class = "box0" href="#">Class: X</a>
-        <a class = "box0" href="#">Class: XI</a>
-        <a class = "box0" href="#">Class: XII</a>
+        <button class = "box00" href="#">Home</button>
+        <button class = "box0" href="#">Class: IX</button>
+        <button class = "box0" href="#">Class: X</button>
+        <button class = "box0" href="#">Class: XI</button>
+        <button class = "box0" href="#">Class: XII</button>
         
     <form class = "m" action="/" method="get">
         <label htmlFor="header-search">
